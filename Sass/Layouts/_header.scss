@@ -1,0 +1,35 @@
+.Le__header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.2);
+    border-top-color: $white;
+
+    a {
+        text-decoration: none;
+        color: black;
+        
+    }
+    &icon_localisation {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &Le_header__logo {
+        display: flex;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0px 10px 0px;
+    }
+    img {
+        display: flex;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
