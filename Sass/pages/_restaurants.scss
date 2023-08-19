@@ -46,3 +46,11 @@ main {
         }
     }
 }
+
+.list {
+    display: flex;
+    flex-direction: row;
+    background-color: $blank;
+    border-radius: 15px;
+    
+}
