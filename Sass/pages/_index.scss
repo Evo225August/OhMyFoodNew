@@ -95,7 +95,7 @@ main {
     flex-direction: column;
     justify-content: left;
 
-    &choice__step {
+    &__step {
         display: flex;
         flex-direction: row;
         padding: 20px 20px 20px 0px;
@@ -105,8 +105,9 @@ main {
         background-color: $light-grey;
         gap: 20px;
 
-        &choice__icon {
+        &__icon {
             color: #4d4c4c;
+            align-self: center;
         }
 
         &:hover {
@@ -115,7 +116,7 @@ main {
         }
     }
 
-    &choice__txt {
+    &__txt {
         font-weight: bold;
         align-self: center;
         &:hover {
