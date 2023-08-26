@@ -90,39 +90,21 @@ main {
     }
 }
 
-.choice__menu {
+.fctns {
     display: flex;
-    flex-direction: column;
     justify-content: left;
+    flex-direction: column;
 
     &__step {
         display: flex;
-        flex-direction: row;
-        padding: 20px 20px 20px 0px;
+        gap: 20px;
         border-radius: 20px;
+        color: black;
         box-shadow: 4px 3px 7px #bcbcbc;
         margin: 20px;
-        background-color: $light-grey;
-        gap: 20px;
 
-        &__icon {
-            color: #4d4c4c;
-            align-self: center;
-        }
-
-        &:hover {
-            color: $colorprimary;
-            background-color: rgba(167, 101, 187, 0.2)
-        }
     }
 
-    &__txt {
-        font-weight: bold;
-        align-self: center;
-        &:hover {
-            color: #000;
-        }
-    }
 }
 
 ol {
