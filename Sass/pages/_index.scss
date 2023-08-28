@@ -90,12 +90,17 @@ main {
     }
 }
 
-.fctns__step {
+.fctns {
     display: flex;
+    justify-content: left;
     flex-direction: column;
-    border-radius: 20px;
-    padding: 20px 20px 20px 0px;
-    box-shadow: 4px 3px 7px #bcbcbc;
+
+
+
+
+
+
+
 }
 
 ol {
