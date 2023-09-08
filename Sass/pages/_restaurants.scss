@@ -2,15 +2,9 @@
 
 
 // style pour le coeur//
-.heart {
-    color: white;
-    font-size: 48px;
-    transition: color 0.3s; 
-}
+
 // le coeur devient violet lorsque la souris passe dessus
-.heart:hover {
-    color: $colorprimary;
-}
+
 .list {
     display: flex;
     flex-direction: row;
