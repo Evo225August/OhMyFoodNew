@@ -103,10 +103,25 @@ sub {
 }
 
 
-.fctns {
+.menu-section {
     display: flex;
-    justify-content: left;
-    flex-direction: column;
+    flex-direction: column; /*Alignement vertical en colonne */
+}
+
+.menu-tab {
+    background-color: #eaeaea;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    text-align: center;
+}
+
+.menu-tab h2 {
+    font-size: 24px;
+}
+
+.menu-tab p {
+    font-size: 16px;
 }
 
 ol {
