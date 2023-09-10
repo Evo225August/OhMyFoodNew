@@ -8,7 +8,6 @@ main {
         border-radius: 20px 20px 0px 0px;
         width: 100%;
         object-fit: cover;
-        height: 140px;
     }
 
 .localisation {
@@ -133,4 +132,15 @@ ol li::before {
     font-size: small;
     text-align: center;
     border-radius: 100%;
+}
+
+.fontawesomeicon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.Utensils::before {
+    font: var(--fa-font-solid);
+    content: '\f2e7';
 }
