@@ -103,25 +103,21 @@ sub {
 }
 
 
-.menu-section {
+
+.menu-list {
     display: flex;
-    flex-direction: column; /*Alignement vertical en colonne */
+    flex-direction: column;
 }
 
-.menu-tab {
-    background-color: #eaeaea;
-    padding: 20px;
-    border: 1px solid #ddd;
-    margin: 10px;
-    text-align: center;
+.menu-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.menu-tab h2 {
+.icon {
     font-size: 24px;
-}
-
-.menu-tab p {
-    font-size: 16px;
+    margin-right: 10px;
 }
 
 ol {
