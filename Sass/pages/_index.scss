@@ -29,6 +29,17 @@ main {
     }
 }
 
+.fa-mobile {
+    color: grey;
+}
+
+.fa-list {
+    color: grey;
+}
+
+.fa-store {
+    color: grey;
+}
 
 .up__1 {
     display: flex;
@@ -114,6 +125,9 @@ sub {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    background-color: #eaeaea;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 .icon {
