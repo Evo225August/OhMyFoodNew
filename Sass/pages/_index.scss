@@ -44,9 +44,10 @@ main {
     display: flex;
     padding: 30px 0px 30px 0px;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: #eaeaea;
+    background-color: $light-grey;
 
     &up__1title {
         text-align: center;
