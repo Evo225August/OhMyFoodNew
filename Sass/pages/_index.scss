@@ -148,7 +148,9 @@ sub {
     transition: color 0.3s;
 }
 
-
+.menu-list p {
+    line-height: 1.2;
+}
 
 .menu-list li:hover .fa-mobile,
 .menu-list li:hover .fa-list,
@@ -171,16 +173,7 @@ ol li {
     display: block;
 }
 
-ol li::before {
-    margin: 0px 0px 0px -10px;
-    padding: 4px 8px 4px 8px;
-    background-color: $colorprimary;
-    counter-increment: item;
-    color: $blank;
-    font-size: small;
-    text-align: center;
-    border-radius: 100%;
-}
+
 
 .fontawesomeicon::before {
     display: inline-block;
