@@ -149,17 +149,6 @@ sub {
 }
 
 
-.menu-list li::before {
-    content: attr(data-number);
-    font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    margin-right: 5px;
-    color:  rgb(147, 86, 220);
-}
 
 .menu-list li:hover .fa-mobile,
 .menu-list li:hover .fa-list,
