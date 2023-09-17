@@ -1,4 +1,4 @@
-
+@import '../Layouts/footer';
 
 
 .list {
@@ -80,4 +80,25 @@
         }
 
     }
+}
+
+.Le__footer {
+    color: #FFFFFF;
+    padding: 10px;
+    background-color: #353535;
+
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    &Le__footer_logo {
+        padding: 20px 0px 0px 20px;
+        color: #FFFFFF;
+    }
+
+    img {
+        width: 50%;
+        margin-left: 6px;
+    }
+
 }
