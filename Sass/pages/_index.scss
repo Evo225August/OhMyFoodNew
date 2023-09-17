@@ -5,7 +5,6 @@ main {
     }
 
     img {
-        border-radius: 20px 20px 0px 0px;
         width: 100%;
         object-fit: cover;
     }
@@ -79,6 +78,7 @@ main {
     margin: 10px;
     text-align: center;
     position: relative;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .menu-item img {
@@ -149,7 +149,7 @@ sub {
 }
 
 .menu-list p {
-    line-height: 1.2;
+    align-self: center;
 }
 
 .menu-list li:hover .fa-mobile,
