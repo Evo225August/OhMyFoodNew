@@ -114,7 +114,58 @@ sub {
     border-radius: 0px 0px 20px 20px;
 }
 
+.fonctionnement {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 30px;
+    @media screen and (min-width: 768px){
+        padding: 0 10%;
+    }
+}
 
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-around;
+        }
+        .card-step{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background: #f7f7f7;
+            gap: 20px;
+            border-radius: 20px;
+            height: 75px;
+            @media screen and (min-width: 768px){
+                padding-right: 50px;                
+            }
+            .number {
+                display: flex;
+                width: 30px;
+                height: 30px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                background-color: #9356DC;
+                color: #FFFFFF;
+                font-weight: bold;
+                margin-left : -15px;
+            }
+            i {
+                color: #7E7E7E;
+            }
+            .fa-store {
+                color: #9356DC;
+            }
+            p {
+                font-weight: bold;
+            }
+        }
+    }
 
 .menu-list {
     display: flex;
