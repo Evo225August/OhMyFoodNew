@@ -6,6 +6,9 @@
 
 }
 
-@media screen and (min-width: 321px) {
-     
+@media screen and (max-width: 1440px) {
+    .menu-list li {
+        display: flex;
+        flex-direction: row;
+    }
 }
