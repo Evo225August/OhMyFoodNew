@@ -88,13 +88,22 @@ main {
         }
     }
     }
+}
 
 
-
-
-
-
-
+.button-explore{
+    background: linear-gradient(to bottom right, #9356DC, #ff79da);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.3);
+    &:hover{
+        background: linear-gradient(to bottom right, #ff79da, #9356DC);
+        box-shadow: 1px 4px 8px 0px rgba(0, 0, 0, 0.5);
+    }
 }
 
 .localisation {
@@ -168,13 +177,6 @@ main {
 }
 
 
-.banner {
-    background-color: white;
-    text-align: center;
-    padding: 10px 0;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 20px 20px;
-}
 
 .fonctionnement {
     display: flex;
