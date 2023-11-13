@@ -4,6 +4,8 @@ main {
     gap: 0px;
 }
 
+
+
 .list {
     display: flex;
     flex-direction: row;
@@ -30,6 +32,8 @@ main {
         
         h3 {
             white-space: nowrap;
+            font-weight: 400;
+            font-size: 13px;
             text-overflow: ellipsis;
             overflow: hidden;
             font-weight: 500;
@@ -51,7 +55,7 @@ main {
     }
 
     &__icon {
-        width: 40%;
+        width: 20%;
         align-items: center;
         justify-content: center;
         border-radius: 0px 15px 15px 0px;
